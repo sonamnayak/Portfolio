@@ -23,7 +23,7 @@ const App = () => {
             <Footer />
             <ScrollButton />
         </Router>
-        )
+    )
 }
 
 export default App
