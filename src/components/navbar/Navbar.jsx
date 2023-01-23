@@ -10,8 +10,8 @@ const Navbar = () => {
             <div className="dropdown my-auto">
                 <AiOutlineMenu size={30} className="text-white" onClick={() => setIsNavExpanded(!isNavExpanded)} />
             </div>
-            <div className={isNavExpanded ? "nav expanded flex gap-6 my-auto text-lg md:text-base text-white" 
-                                          : "nav flex gap-6 my-auto text-lg md:text-base text-white"}>
+            <div className={isNavExpanded ? "nav expanded min-[767px]:flex gap-6 my-auto text-lg md:text-base text-white mt-[7vh]" 
+                                          : "nav min-[767px]:flex gap-6 my-auto text-lg md:text-base text-white"}>
                 <a href="#skills" className="pt-2 md:pt-0">SKILLS</a>
                 <a href="#project">PROJECTS</a>
                 {/* <a href="#education">EDUCATION</a> */}
